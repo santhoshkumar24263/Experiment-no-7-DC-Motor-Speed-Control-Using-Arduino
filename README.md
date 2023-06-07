@@ -27,7 +27,18 @@ As shown in the circuit diagram we need only 3 Arduino terminal pins, pin 8 is f
 
 ### PRGORAM 
 
+int m1=2;  int m2=3; int m3=4; int m4=5; void setup(){   pinMode(m1,OUTPUT);   
+pinMode(m2,OUTPUT); 
+  pinMode(m3,OUTPUT);   
+pinMode(m4,OUTPUT); } void loop(){   digitalWrite(m1,HIGH);   digitalWrite(m2,LOW);     
+digitalWrite(m3,HIGH);   digitalWrite(m4,LOW);   delay(10000); 
+} 
+
+
 ### OUTPUT
+![image](https://github.com/santhoshkumar24263/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/127171952/2f20ae64-65d0-4102-af6e-7b3fcc9c0b88)
+
+
 
 ### GRAPH AND TABULATION 
 
